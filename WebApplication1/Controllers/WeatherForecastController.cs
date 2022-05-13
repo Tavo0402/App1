@@ -32,7 +32,7 @@ namespace WebApplication1.Controllers
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)],
-                AppName = "App1"
+                AppName = "App1 asdasdasd"
             })
             .ToArray();
         }
